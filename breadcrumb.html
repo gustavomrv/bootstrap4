@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Badges</title>
+    <title>BreadCrumb</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
@@ -12,39 +12,42 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>Header <span class="badge badge-light">New</span></h1>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">Home</li>
+                </ol>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
-                <h2>Header <span class="badge badge-success">New</span></h2>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">BookStore</li>
+                </ol>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
-                <h3>Header <span class="badge badge-danger">New</span></h3>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"> <a href="#">Home</a></li>
+                    <li class="breadcrumb-item"> <a href="#">BookStore</a></li>
+                    <li class="breadcrumb-item active">Book</li>
+                </ol>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
-                <h4>Header <span class="badge badge-warning">New</span></h4>
+                <nav class="breadcrumb">
+                    <a href="#" class="breadcrumb-item">Home</a>
+                    <a href="#" class="breadcrumb-item">BookStore</a>
+                    <a href="#" class="breadcrumb-item">Book</a>
+                    <span class="breadcrumb-item active">Page</span>
+                </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <h5>Header <span class="badge badge-info">New</span></h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <h6>Header <span class="badge badge-dark">New</span></h6>
-            </div>
-        </div>
-        <div class="row">
-            <button class="btn">
-                Notifications <span class="badge badge-primary">443</span>
-            </button>
-        </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
